@@ -1,0 +1,51 @@
+.noise-wrapper .random-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.noise-wrapper .random-wrapper .random-row {
+  display: flex;
+}
+.noise-wrapper .random-wrapper .random-row .row-number {
+  color: rgb(37, 18, 238);
+  background-color: bisque;
+}
+.noise-wrapper .random-wrapper .random-row .column-number {
+  color: rgb(37, 18, 238);
+  background-color: bisque;
+}
+.noise-wrapper .random-wrapper .random-row .random-number {
+  text-align: center;
+  width: 50px;
+  border: 1px solid black;
+}
+.noise-wrapper .flip-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.noise-wrapper .flip-wrapper .flip-row {
+  display: flex;
+}
+.noise-wrapper .flip-wrapper .flip-row .row-number {
+  color: rgb(37, 18, 238);
+  background-color: bisque;
+}
+.noise-wrapper .flip-wrapper .flip-row .column-number {
+  color: rgb(37, 18, 238);
+  background-color: bisque;
+}
+.noise-wrapper .flip-wrapper .flip-row .flip-number {
+  text-align: center;
+  width: 50px;
+  border: 1px solid black;
+}
+.noise-wrapper .flip-wrapper .flip-row .flip-v {
+  background-color: rgb(255, 192, 4);
+}
+.noise-wrapper .flip-wrapper .flip-row .flip-external {
+  background-color: rgb(138, 181, 255);
+}
+.noise-wrapper .flip-wrapper .flip-row .fliped {
+  background-color: red !important;
+}/*# sourceMappingURL=NoiseStyle.css.map */

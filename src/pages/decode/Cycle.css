@@ -1,0 +1,77 @@
+.some-cycle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-left: 80px;
+}
+.some-cycle .buttons-container {
+  display: flex;
+}
+.some-cycle .buttons-container .buttons-step-by-step {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.some-cycle .cycle-wrapper {
+  display: flex;
+}
+.some-cycle .cycle-wrapper .final-matrix-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.some-cycle .cycle-wrapper .final-matrix-wrapper .column-numbers-wrapper {
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.some-cycle .cycle-wrapper .final-matrix-wrapper .matrix-row {
+  display: flex;
+}
+.some-cycle .cycle-wrapper .final-matrix-wrapper .matrix-row .column-number {
+  width: 50px;
+  border: 1px solid black;
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.some-cycle .cycle-wrapper .final-matrix-wrapper .matrix-row .matrix-element {
+  width: 50px;
+  border: 1px solid black;
+}
+.some-cycle .cycle-wrapper .horizontal-matrix-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.some-cycle .cycle-wrapper .horizontal-matrix-wrapper .column-numbers-wrapper {
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.some-cycle .cycle-wrapper .horizontal-matrix-wrapper .matrix-row {
+  display: flex;
+}
+.some-cycle .cycle-wrapper .horizontal-matrix-wrapper .matrix-row .column-number {
+  width: 50px;
+  border: 1px solid black;
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.some-cycle .cycle-wrapper .horizontal-matrix-wrapper .matrix-row .matrix-element {
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(138, 181, 255);
+}
+.some-cycle .vertical-decode-wrapper {
+  display: flex;
+}
+.some-cycle .vertical-decode-wrapper .row-numbers-wrapper .row-number {
+  width: 50px;
+  border: 1px solid black;
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.some-cycle .vertical-decode-wrapper .vertical-column .vertical-element {
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 192, 4);
+}/*# sourceMappingURL=Cycle.css.map */

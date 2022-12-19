@@ -1,0 +1,66 @@
+.horizonal-v2-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper {
+  justify-content: center;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .column-position {
+  display: flex;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .column-position .column-position-item {
+  width: 50px;
+  border: 1px solid black;
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .generic-row {
+  display: flex;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .generic-row .row-position {
+  margin-right: 15px;
+  color: rgb(37, 18, 238);
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .map-wrapper {
+  display: flex;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .map-wrapper .row-position {
+  display: flex;
+  flex-direction: column;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .map-wrapper .row-position .row-position-item {
+  width: 50px;
+  border: 1px solid black;
+  background-color: bisque;
+  color: rgb(37, 18, 238);
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .map-wrapper .generic-column {
+  display: flex;
+  flex-direction: column;
+}
+.horizonal-v2-wrapper .generic-matrix-wrapper .map-wrapper .generic-column .generic-item {
+  width: 50px;
+  border: 1px solid black;
+}
+.horizonal-v2-wrapper .matrix-wrapper {
+  margin-top: 20px;
+}
+.horizonal-v2-wrapper .matrix-wrapper .column-position {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(37, 18, 238);
+}
+.horizonal-v2-wrapper .matrix-wrapper .matrix-row {
+  display: flex;
+}
+.horizonal-v2-wrapper .matrix-wrapper .matrix-row .row-position {
+  margin-right: 15px;
+  color: rgb(37, 18, 238);
+}
+.horizonal-v2-wrapper .matrix-wrapper .matrix-row .matrix-rows .external {
+  background-color: rgb(138, 181, 255);
+}
+.horizonal-v2-wrapper .matrix-wrapper .matrix-row .matrix-rows .external-v {
+  background-color: rgb(251, 220, 182);
+}/*# sourceMappingURL=HorizontalV2.css.map */

@@ -1,0 +1,65 @@
+.noise-wrapper {
+    .random-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .random-row {
+            display: flex;
+
+            .row-number {
+                color: rgb(37, 18, 238);
+                background-color: bisque;
+            }
+
+            .column-number {
+                color: rgb(37, 18, 238);
+                background-color: bisque;
+            }
+
+            .random-number {
+                text-align: center;
+                width: 50px;
+                border: 1px solid black;
+            }
+        }
+    }
+
+    .flip-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .flip-row {
+            display: flex;
+
+            .row-number {
+                color: rgb(37, 18, 238);
+                background-color: bisque;
+            }
+
+            .column-number {
+                color: rgb(37, 18, 238);
+                background-color: bisque;
+            }
+
+            .flip-number {
+                text-align: center;
+                width: 50px;
+                border: 1px solid black;
+            }
+
+            .flip-v {
+                background-color: rgb(255, 192, 4);
+            }
+
+            .flip-external {
+                background-color: rgb(138, 181, 255);
+            }
+
+            .fliped {
+                background-color: red !important;
+            }
+        }
+    }
+}
